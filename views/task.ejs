@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task List</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+      }
+    </style>
+  </head>
+  <body
+    class="bg-gradient-to-br from-blue-100 to-blue-300 text-gray-900 min-h-screen flex flex-col"
+  >
+    <header class="bg-purple-600 text-white py-4 shadow-lg">
+      <div class="container mx-auto flex justify-between items-center px-4">
+        <h1 class="text-3xl font-bold">Auto Crawl</h1>
+        <nav>
+          <ul class="flex space-x-6">
+            <li><a href="/" class="hover:text-gray-200">Trang chủ</a></li>
+            <li>
+              <a href="/order" class="hover:text-gray-200">Lịch sử mua</a>
+            </li>
+            <li><a href="/task" class="hover:text-gray-200">List Task</a></li>
+            <li><a href="/user" class="hover:text-gray-200">User</a></li>
+
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="flex-grow container mx-auto py-10 px-4">
+      <h2 class="text-2xl font-bold mb-6 text-center">Task List</h2>
+
+      <div class="overflow-x-auto">
+        <table class="table-auto w-full bg-white shadow-md rounded">
+          <thead>
+            <tr class="bg-purple-600 text-white text-left">
+              <th class="px-6 py-3 text-sm font-semibold">Service Name</th>
+              <th class="px-6 py-3 text-sm font-semibold">Package</th>
+              <th class="px-6 py-3 text-sm font-semibold">Link</th>
+              <th class="px-6 py-3 text-sm font-semibold">Min Quantity</th>
+              <th class="px-6 py-3 text-sm font-semibold">Max Quantity</th>
+              <th class="px-6 py-3 text-sm font-semibold">Start Time</th>
+              <th class="px-6 py-3 text-sm font-semibold">End Time</th>
+              <th class="px-6 py-3 text-sm font-semibold">Status</th>
+              <th class="px-6 py-3 text-sm font-semibold">Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <% if (tasks && tasks.length > 0) { %> <% tasks.forEach(task => { %>
+            <tr class="bg-gray-50 border-b border-gray-200">
+              <td class="px-6 py-3"><%= task.serviceName %></td>
+              <td class="px-6 py-3"><%= task.package %></td>
+              <td class="px-6 py-3">
+                <div class="w-48 truncate">
+                  <a
+                    href="<%= task.link %>"
+                    class="text-blue-500 hover:underline"
+                    target="_blank"
+                    ><%= task.link %></a
+                  >
+                </div>
+              </td>
+              <td class="px-6 py-3"><%= task.min_quantity %></td>
+              <td class="px-6 py-3"><%= task.max_quantity %></td>
+              <td class="px-6 py-3">
+                <%= new Date(task.start_time).toLocaleString('en-GB', { hour:
+                '2-digit', minute: '2-digit', second: '2-digit', day: '2-digit',
+                month: '2-digit', year: 'numeric' }) %>
+              </td>
+              <td class="px-6 py-3">
+                <%= new Date(task.end_time).toLocaleString('en-GB', { hour:
+                '2-digit', minute: '2-digit', second: '2-digit', day: '2-digit',
+                month: '2-digit', year: 'numeric' }) %>
+              </td>
+              <td class="px-6 py-3">
+                <%= task.isAvailable ? 'Hoạt động' : 'Không hoạt động' %>
+              </td>
+              <td class="px-6 py-3">
+                <button
+                  class="text-blue-500 hover:underline"
+                  onclick="fetchTaskDetails('<%= task._id %>')"
+                >
+                  Sửa
+                </button>
+
+                <!-- Delete Button with a form -->
+                <form
+                  action="/task/<%= task._id %>?_method=DELETE"
+                  method="POST"
+                  style="display: inline"
+                >
+                  <button type="submit" class="text-red-500 hover:underline">
+                    Xóa
+                  </button>
+                </form>
+              </td>
+            </tr>
+            <% }) %> <% } else { %>
+            <tr>
+              <td colspan="9" class="text-center text-gray-500 py-4">
+                No tasks available.
+              </td>
+            </tr>
+            <% } %>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Edit Modal -->
+      <div
+        id="edit-modal"
+        class="fixed inset-0 hidden bg-gray-600 bg-opacity-50 flex justify-center items-center"
+      >
+        <div class="bg-white p-6 rounded shadow-md w-1/3">
+          <h3 class="text-xl font-bold mb-4">Edit Task</h3>
+
+          <form id="edit-task-form" method="POST">
+            <input type="hidden" id="edit-task-id" name="taskId" value="" />
+            <!-- Link -->
+            <div class="mb-4">
+              <label for="edit-link" class="block text-gray-700">Link:</label>
+              <textarea
+                id="edit-link"
+                name="link"
+                class="w-full p-2 border border-gray-300 rounded"
+                rows="5"
+                placeholder="Enter one link per line"
+                required
+              ></textarea>
+            </div>
+            
+
+            <!-- Min Quantity -->
+            <div class="mb-4">
+              <label for="edit-min-quantity" class="block text-gray-700"
+                >Min Quantity:</label
+              >
+              <input
+                type="number"
+                id="edit-min-quantity"
+                name="min_quantity"
+                class="w-full p-2 border border-gray-300 rounded"
+                required
+              />
+            </div>
+
+            <!-- Max Quantity -->
+            <div class="mb-4">
+              <label for="edit-max-quantity" class="block text-gray-700"
+                >Max Quantity:</label
+              >
+              <input
+                type="number"
+                id="edit-max-quantity"
+                name="max_quantity"
+                class="w-full p-2 border border-gray-300 rounded"
+                required
+              />
+            </div>
+
+            <!-- Status -->
+            <div class="mb-4">
+              <label for="edit-status" class="block text-gray-700"
+                >Status:</label
+              >
+              <select
+                id="edit-status"
+                name="isAvailable"
+                class="w-full p-2 border border-gray-300 rounded"
+                required
+              >
+                <option value="true">Hoạt động</option>
+                <option value="false">Không hoạt động</option>
+              </select>
+            </div>
+
+            <div class="flex justify-end">
+              <button
+                type="button"
+                id="close-modal"
+                class="text-gray-500 hover:text-gray-700 mr-4"
+              >
+                Cancel
+              </button>
+              <button
+                type="submit"
+                class="bg-blue-500 text-white py-2 px-4 rounded"
+              >
+                Save Changes
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-purple-600 text-white text-center py-4">
+      <p>&copy; 2024 All rights reserved.</p>
+    </footer>
+    <script>
+      // Function to fetch task details from the API and populate the modal
+      async function fetchTaskDetails(taskId) {
+        try {
+          // Call the API to get task details
+          const response = await fetch(`/api/task/${taskId}`);
+          if (!response.ok) {
+            throw new Error("Failed to fetch task details");
+          }
+          const task = await response.json();
+          console.log("🚀 ~ fetchTaskDetails ~ task:", task);
+
+          // Populate the modal form fields with the task data
+          document.getElementById("edit-task-id").value = task._id;
+          document.getElementById("edit-link").value = task.link.join('\n');
+          document.getElementById("edit-min-quantity").value =
+            task.min_quantity;
+          document.getElementById("edit-max-quantity").value =
+            task.max_quantity;
+          document.getElementById("edit-status").value = task.isAvailable
+            ? "true"
+            : "false";
+
+          // Set the form action with the task ID
+          document.getElementById(
+            "edit-task-form"
+          ).action = `/task/${taskId}/edit`;
+
+          // Show the modal
+          document.getElementById("edit-modal").classList.remove("hidden");
+        } catch (error) {
+          console.error("Error fetching task details:", error);
+          alert("Failed to load task details");
+        }
+      }
+
+      // Function to close the modal
+      document
+        .getElementById("close-modal")
+        .addEventListener("click", function () {
+          document.getElementById("edit-modal").classList.add("hidden");
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auto Crawl - User Management</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+      }
+    </style>
+  </head>
+  <body
+    class="bg-gradient-to-br from-blue-100 to-blue-300 text-gray-900 min-h-screen flex flex-col"
+  >
+    <header class="bg-purple-600 text-white py-4 shadow-lg">
+      <div class="container mx-auto flex justify-between items-center px-4">
+        <h1 class="text-3xl font-bold">Auto Crawl</h1>
+        <nav>
+          <ul class="flex space-x-6">
+            <li><a href="/" class="hover:text-gray-200">Trang chủ</a></li>
+            <li>
+              <a href="/order" class="hover:text-gray-200">Lịch sử mua</a>
+            </li>
+            <li><a href="/task" class="hover:text-gray-200">List Task</a></li>
+            <li><a href="/user" class="hover:text-gray-200">User</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow container mx-auto py-10 px-4">
+      <h2 class="text-2xl font-bold mb-6 text-center">Submit Your User</h2>
+
+      <!-- User Form -->
+      <form
+        id="userForm"
+        class="bg-white p-6 rounded shadow-md max-w-md mx-auto mb-8"
+      >
+        <div class="mb-4">
+          <label for="name" class="block text-gray-700">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            class="w-full p-2 border border-gray-300 rounded"
+            placeholder="Enter user name"
+            required
+          />
+        </div>
+
+        <div class="mb-4">
+          <label for="apiKey" class="block text-gray-700">API Key:</label>
+          <input
+            type="text"
+            id="apiKey"
+            name="apiKey"
+            class="w-full p-2 border border-gray-300 rounded"
+            placeholder="Enter API Key"
+            required
+          />
+        </div>
+
+        <button
+          type="submit"
+          class="bg-blue-500 text-white py-2 px-4 rounded w-full"
+        >
+          Submit
+        </button>
+      </form>
+
+      <!-- User Table -->
+      <h3 class="text-xl font-bold mb-4 text-center">User List</h3>
+      <div class="overflow-x-auto">
+        <table class="min-w-full bg-white border border-gray-300">
+          <thead>
+            <tr class="bg-gray-100 border-b">
+              <th class="px-4 py-2 text-left">Name</th>
+              <th class="px-4 py-2 text-left">API Key</th>
+              <th class="px-4 py-2 text-left">Actions</th>
+            </tr>
+          </thead>
+          <tbody id="userTableBody">
+            <!-- User rows will be dynamically added here -->
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-purple-600 text-white text-center py-4">
+      <p>&copy; 2024 All rights reserved.</p>
+    </footer>
+
+    <script>
+      // Function to fetch user data from the API
+      async function fetchUsers() {
+        try {
+          const response = await fetch("/api/user");
+          if (!response.ok) {
+            throw new Error("Failed to fetch users");
+          }
+          const users = await response.json();
+          return users;
+        } catch (error) {
+          console.error("Error fetching user data:", error);
+          return [];
+        }
+      }
+
+      // Function to render the user table
+      async function renderUserTable() {
+        const users = await fetchUsers(); // Fetch users from API
+        const userTableBody = document.getElementById("userTableBody");
+        userTableBody.innerHTML = ""; // Clear existing rows
+
+        users.forEach((user, index) => {
+          const row = document.createElement("tr");
+          row.classList.add("border-b");
+
+          row.innerHTML = `
+            <td class="px-4 py-2">${user.name}</td>
+            <td class="px-4 py-2">${user.apiKey}</td>
+            <td class="px-4 py-2">
+              <button
+                class="bg-red-500 text-white py-1 px-2 rounded"
+                onclick="deleteUser('${user._id}')"
+              >
+                Delete
+              </button>
+            </td>
+        `;
+
+          userTableBody.appendChild(row);
+        });
+      }
+
+      // Handle form submission
+      document
+        .getElementById("userForm")
+        .addEventListener("submit", async function (e) {
+          e.preventDefault();
+
+          const name = document.getElementById("name").value;
+          const apiKey = document.getElementById("apiKey").value;
+
+          // Send data to the server to add a new user
+          try {
+            const response = await fetch('/api/user', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json'
+              },
+              body: JSON.stringify({ name, apiKey })
+            });
+
+            if (!response.ok) {
+              throw new Error("Failed to add user");
+            }
+
+            // Reset form
+            document.getElementById("name").value = "";
+            document.getElementById("apiKey").value = "";
+
+            // Re-render the user table
+            renderUserTable();
+          } catch (error) {
+            console.error("Error adding user:", error);
+          }
+        });
+
+      // Function to delete a user
+      async function deleteUser(userId) {
+        try {
+          const response = await fetch(`/api/user/${userId}`, {
+            method: 'DELETE'
+          });
+
+          if (!response.ok) {
+            throw new Error("Failed to delete user");
+          }
+
+          // Re-render the user table after deletion
+          renderUserTable();
+        } catch (error) {
+          console.error("Error deleting user:", error);
+        }
+      }
+
+      // Fetch and render the user table when the page loads
+      document.addEventListener("DOMContentLoaded", renderUserTable);
+    </script>
+  </body>
+</html>

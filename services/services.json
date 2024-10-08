@@ -1,0 +1,2626 @@
+{
+  "status": 200,
+  "data": [
+    {
+      "name": "Vip mắt tiktok",
+      "path": "/tiktok-vip-mat",
+      "url_api": "/api/tiktok-vip-mat/buy",
+      "package": [
+        {
+          "id": 135,
+          "name": "Vip mắt Tiktok 15 phút",
+          "package_name": "tiktok_vip_eyes_sv1",
+          "config": {},
+          "price_per": 210
+        },
+        {
+          "id": 136,
+          "name": "Vip mắt Tiktok 30 phút",
+          "package_name": "tiktok_vip_eyes_sv2",
+          "config": {},
+          "price_per": 365
+        },
+        {
+          "id": 137,
+          "name": "Vip mắt Tiktok 60 phút",
+          "package_name": "tiktok_vip_eyes_sv3",
+          "config": {},
+          "price_per": 570
+        },
+        {
+          "id": 138,
+          "name": "Vip mắt Tiktok 90 phút",
+          "package_name": "tiktok_vip_eyes_sv4",
+          "config": {},
+          "price_per": 730
+        },
+        {
+          "id": 139,
+          "name": "Vip mắt Tiktok 120 phút",
+          "package_name": "tiktok_vip_eyes_sv5",
+          "config": {},
+          "price_per": 880
+        },
+        {
+          "id": 140,
+          "name": "Vip mắt Tiktok 3h [ 3 tiếng ]",
+          "package_name": "tiktok_vip_eyes_sv6",
+          "config": {},
+          "price_per": 1250
+        },
+        {
+          "id": 148,
+          "name": "Vip mắt Tiktok 4h [ 4 tiếng ]",
+          "package_name": "tiktok_vip_eyes_sv7",
+          "config": {},
+          "price_per": 1550
+        },
+        {
+          "id": 149,
+          "name": "Vip mắt Tiktok 6h [ 6 tiếng ]",
+          "package_name": "tiktok_vip_eyes_sv8",
+          "config": {},
+          "price_per": 2150
+        },
+        {
+          "id": 150,
+          "name": "Vip mắt Tiktok 24h [ 1 ngày ]",
+          "package_name": "tiktok_vip_eyes_sv9",
+          "config": {},
+          "price_per": 3750
+        }
+      ]
+    },
+    {
+      "name": "Tăng Follow lazada",
+      "path": "/lazada-sub",
+      "url_api": "/api/lazada-sub/buy",
+      "package": [
+        {
+          "id": 263,
+          "name": "Follow lazada",
+          "package_name": "lazada_sub_sv1",
+          "config": {},
+          "price_per": 93
+        }
+      ]
+    },
+    {
+      "name": "Vip Bình Luận Tiktok",
+      "path": "/tiktok-vip-binh-luan",
+      "url_api": "/api/tiktok-vip-binh-luan/buy",
+      "package": [
+        {
+          "id": 266,
+          "name": "random",
+          "package_name": "tiktok_vip_comment_sv1",
+          "config": {},
+          "price_per": 1000
+        }
+      ]
+    },
+    {
+      "name": "Like Giá rẻ",
+      "path": "/facebook-like-gia-re",
+      "url_api": "/api/facebook-like-gia-re/buy",
+      "package": [
+        {
+          "id": 1,
+          "name": "S1 Like bấm tay",
+          "package_name": "facebook_like",
+          "config": {
+            "reaction": true,
+            "multiple_reaction": true
+          },
+          "price_per": 28
+        },
+        {
+          "id": 2,
+          "name": "S1 Like cảm xúc",
+          "package_name": "facebook_like_v2",
+          "config": {
+            "reaction": true
+          },
+          "price_per": 6
+        },
+        {
+          "id": 3,
+          "name": "S2  Like clone nhanh",
+          "package_name": "facebook_like_v3",
+          "config": {
+            "reaction": true,
+            "multiple_reaction": true
+          },
+          "price_per": 10.5
+        },
+        {
+          "id": 6,
+          "name": "S2 Like siêu nhanh",
+          "package_name": "facebook_like_v7",
+          "config": {
+            "reaction": true,
+            "multiple_reaction": true
+          },
+          "price_per": 18.5
+        },
+        {
+          "id": 7,
+          "name": "S1 Like clone Sale",
+          "package_name": "facebook_like_v8",
+          "config": {},
+          "price_per": 6
+        },
+        {
+          "id": 9,
+          "name": "S3 like clone siêu rẻ",
+          "package_name": "facebook_like_v10",
+          "config": {
+            "reaction": true,
+            "multiple_reaction": true
+          },
+          "price_per": 4.5
+        },
+        {
+          "id": 36,
+          "name": "Like clone siêu sale độc quyền",
+          "package_name": "facebook_like_v27",
+          "config": {
+            "reaction": true,
+            "multiple_reaction": true
+          },
+          "price_per": 6.5
+        },
+        {
+          "id": 110,
+          "name": "S3 Like cảm xúc",
+          "package_name": "facebook_like_v12",
+          "config": {
+            "reaction": true
+          },
+          "price_per": 10.5
+        },
+        {
+          "id": 256,
+          "name": "Like beta vip độc quyền",
+          "package_name": "facebook_like_v26",
+          "config": {},
+          "price_per": 6
+        },
+        {
+          "id": 298,
+          "name": "S2 Like post dự phòng",
+          "package_name": "facebook_like_v33",
+          "config": {},
+          "price_per": 11
+        }
+      ]
+    },
+    {
+      "name": "Like Chất lượng",
+      "path": "/facebook-like-chat-luong",
+      "url_api": "/api/facebook-like-chat-luong/buy",
+      "package": []
+    },
+    {
+      "name": "Like Bình luận",
+      "path": "/facebook-like-binh-luan",
+      "url_api": "/api/facebook-like-binh-luan/buy",
+      "package": [
+        {
+          "id": 21,
+          "name": "S1 Like bình luận (  thiếu 10%)",
+          "package_name": "facebook_like_comment",
+          "config": {
+            "reaction": true,
+            "multiple_reaction": true
+          },
+          "price_per": 29
+        },
+        {
+          "id": 26,
+          "name": "S2 like bình luận",
+          "package_name": "facebook_like_comment_sv2",
+          "config": {},
+          "price_per": 16
+        },
+        {
+          "id": 27,
+          "name": "S3 Like bình luận vip  độc quyền toàn thế giới",
+          "package_name": "facebook_like_comment_sv3",
+          "config": {},
+          "price_per": 11.5
+        }
+      ]
+    },
+    {
+      "name": "Tăng bình luận",
+      "path": "/facebook-binh-luan",
+      "url_api": "/api/facebook-binh-luan/buy",
+      "package": [
+        {
+          "id": 32,
+          "name": "S7 cmt giá rẻ",
+          "package_name": "facebook_comment_sv13",
+          "config": {},
+          "price_per": 92
+        },
+        {
+          "id": 39,
+          "name": "Sv3 Cmt clone cực nhanh",
+          "package_name": "facebook_comment_sv1",
+          "config": {},
+          "price_per": 210
+        }
+      ]
+    },
+    {
+      "name": "Tăng theo dõi",
+      "path": "/facebook-follow",
+      "url_api": "/api/facebook-follow/buy",
+      "package": [
+        {
+          "id": 41,
+          "name": "Follow người dùng thật bấm tay",
+          "package_name": "facebook_follow",
+          "config": {},
+          "price_per": 39
+        },
+        {
+          "id": 43,
+          "name": "S8 Follow Clone +  Vip độc quyền",
+          "package_name": "facebook_follow_sv32",
+          "config": {},
+          "price_per": 21.8
+        },
+        {
+          "id": 45,
+          "name": "Follow clone sale",
+          "package_name": "facebook_follow_sv4",
+          "config": {},
+          "price_per": 25.5
+        },
+        {
+          "id": 46,
+          "name": "Follow clone Việt",
+          "package_name": "facebook_follow_sv24",
+          "config": {},
+          "price_per": 20.5
+        },
+        {
+          "id": 345,
+          "name": "Follow S8 Clone",
+          "package_name": "facebook_follow_sv14",
+          "config": {},
+          "price_per": 30
+        },
+        {
+          "id": 349,
+          "name": "S9 Follow Vip | Sub page",
+          "package_name": "facebook_follow_sv31",
+          "config": {},
+          "price_per": 22.5
+        }
+      ]
+    },
+    {
+      "name": "Tăng like page",
+      "path": "/facebook-like-page",
+      "url_api": "/api/facebook-like-page/buy",
+      "package": [
+        {
+          "id": 51,
+          "name": "Like + Follow Page Bấm Tay",
+          "package_name": "facebook_like_page",
+          "config": {},
+          "price_per": 31
+        },
+        {
+          "id": 52,
+          "name": "S1 Follow page pro5 độc quyền",
+          "package_name": "facebook_like_page_sv18",
+          "config": {},
+          "price_per": 5.5
+        },
+        {
+          "id": 57,
+          "name": "S3 Follow page  độc quyền",
+          "package_name": "facebook_like_page_sv22",
+          "config": {},
+          "price_per": 6
+        },
+        {
+          "id": 352,
+          "name": "S6 like page clone",
+          "package_name": "facebook_like_page_sv32",
+          "config": {},
+          "price_per": 27
+        },
+        {
+          "id": 353,
+          "name": "S5 Like page clone",
+          "package_name": "facebook_like_page_sv10",
+          "config": {},
+          "price_per": 25.2
+        },
+        {
+          "id": 354,
+          "name": "S7 Like page clone",
+          "package_name": "facebook_like_page_sv11",
+          "config": {},
+          "price_per": 29.5
+        },
+        {
+          "id": 357,
+          "name": "Like page via - beta",
+          "package_name": "facebook_like_page_sv27",
+          "config": {},
+          "price_per": 31
+        },
+        {
+          "id": 359,
+          "name": "Like page clone",
+          "package_name": "facebook_like_page_sv24",
+          "config": {},
+          "price_per": 15.5
+        }
+      ]
+    },
+    {
+      "name": "Tăng mem group",
+      "path": "/facebook-mem-group",
+      "url_api": "/api/facebook-mem-group/buy",
+      "package": [
+        {
+          "id": 61,
+          "name": "Mem clone + page siêu sale độc quyền",
+          "package_name": "facebook_mem_v16",
+          "config": {},
+          "price_per": 21
+        },
+        {
+          "id": 63,
+          "name": "Mem clone siêu nhanh",
+          "package_name": "facebook_mem_v14",
+          "config": {},
+          "price_per": 30.5
+        },
+        {
+          "id": 64,
+          "name": "S3 Mem group",
+          "package_name": "facebook_mem_v3",
+          "config": {},
+          "price_per": 10.5
+        },
+        {
+          "id": 67,
+          "name": "S4 mem  page + clone",
+          "package_name": "facebook_mem_v6",
+          "config": {},
+          "price_per": 17.5
+        },
+        {
+          "id": 68,
+          "name": "S2 mem clone",
+          "package_name": "facebook_mem_v7",
+          "config": {},
+          "price_per": 15.5
+        },
+        {
+          "id": 69,
+          "name": "Mem clone độc quyền",
+          "package_name": "facebook_mem_v8",
+          "config": {},
+          "price_per": 6.5
+        },
+        {
+          "id": 70,
+          "name": "Mem page + via vip độc quyền",
+          "package_name": "facebook_mem_v15",
+          "config": {},
+          "price_per": 24.5
+        }
+      ]
+    },
+    {
+      "name": "Tăng view video",
+      "path": "/facebook-view-video",
+      "url_api": "/api/facebook-view-video/buy",
+      "package": [
+        {
+          "id": 34,
+          "name": "S1 View reel sale",
+          "package_name": "facebook_view_36",
+          "config": {},
+          "price_per": 3
+        },
+        {
+          "id": 37,
+          "name": "View 3s sale",
+          "package_name": "facebook_view_34",
+          "config": {
+            "num_minutes": true
+          },
+          "price_per": 3
+        },
+        {
+          "id": 71,
+          "name": "60k phút offline",
+          "package_name": "facebook_view_27",
+          "config": {
+            "package": true
+          },
+          "price_per": 35000
+        },
+        {
+          "id": 72,
+          "name": "60k phút offline",
+          "package_name": "facebook_view_26",
+          "config": {
+            "package": true
+          },
+          "price_per": 55000
+        },
+        {
+          "id": 73,
+          "name": "View 3s tốc độ thường [ Vip ]",
+          "package_name": "facebook_view_8",
+          "config": {},
+          "price_per": 7
+        },
+        {
+          "id": 75,
+          "name": "View Facebook s2",
+          "package_name": "facebook_view_4",
+          "config": {},
+          "price_per": 14
+        },
+        {
+          "id": 77,
+          "name": "View facebook 3s | chạy được cho reel",
+          "package_name": "facebook_view_33",
+          "config": {},
+          "price_per": 37
+        },
+        {
+          "id": 78,
+          "name": "View /Reels 3s tốc độ nhanh [ Vip ]",
+          "package_name": "facebook_view_10",
+          "config": {},
+          "price_per": 12
+        },
+        {
+          "id": 79,
+          "name": "View Facebook 15s sale",
+          "package_name": "facebook_view_31",
+          "config": {},
+          "price_per": 15
+        },
+        {
+          "id": 80,
+          "name": "View 3s [ Tốc độ nhanh ]",
+          "package_name": "facebook_view_30",
+          "config": {},
+          "price_per": 11
+        },
+        {
+          "id": 291,
+          "name": "S2 View reel sale",
+          "package_name": "facebook_view_35",
+          "config": {},
+          "price_per": 2.5
+        },
+        {
+          "id": 381,
+          "name": "100k Reels",
+          "package_name": "facebook_view_28",
+          "config": {
+            "package": true
+          },
+          "price_per": 220000
+        },
+        {
+          "id": 382,
+          "name": "100k Reels",
+          "package_name": "facebook_view_29",
+          "config": {
+            "package": true
+          },
+          "price_per": 440000
+        },
+        {
+          "id": 383,
+          "name": "xem on live 100k phút sale",
+          "package_name": "facebook_view_25",
+          "config": {
+            "quantity": false,
+            "token": true,
+            "cookie": true,
+            "package": true
+          },
+          "price_per": 83000
+        },
+        {
+          "id": 384,
+          "name": "600k phút",
+          "package_name": "facebook_view_14",
+          "config": {
+            "package": true
+          },
+          "price_per": 160000
+        },
+        {
+          "id": 385,
+          "name": "Xem on live 60k phút",
+          "package_name": "facebook_view_15",
+          "config": {
+            "quantity": false,
+            "token": true,
+            "cookie": true,
+            "package": true
+          },
+          "price_per": 57000
+        },
+        {
+          "id": 386,
+          "name": "Xem on live 100k phút",
+          "package_name": "facebook_view_16",
+          "config": {
+            "quantity": false,
+            "token": true,
+            "cookie": true,
+            "package": true
+          },
+          "price_per": 165000
+        },
+        {
+          "id": 387,
+          "name": "600k phút, 60k phút live",
+          "package_name": "facebook_view_17",
+          "config": {
+            "quantity": false,
+            "token": true,
+            "cookie": true,
+            "package": true
+          },
+          "price_per": 320000
+        },
+        {
+          "id": 388,
+          "name": "600k phút, 60k live",
+          "package_name": "facebook_view_22",
+          "config": {
+            "quantity": false,
+            "token": true,
+            "cookie": true,
+            "package": true
+          },
+          "price_per": 165000
+        },
+        {
+          "id": 389,
+          "name": "600k phút",
+          "package_name": "facebook_view_23",
+          "config": {
+            "package": true
+          },
+          "price_per": 73000
+        },
+        {
+          "id": 390,
+          "name": "Xem onlive 60k phút",
+          "package_name": "facebook_view_24",
+          "config": {
+            "quantity": false,
+            "token": true,
+            "cookie": true,
+            "package": true
+          },
+          "price_per": 130000
+        }
+      ]
+    },
+    {
+      "name": "Tăng mắt livestream",
+      "path": "/facebook-eyes",
+      "url_api": "/api/facebook-eyes/buy",
+      "package": [
+        {
+          "id": 40,
+          "name": "S1 Mắt live sale",
+          "package_name": "facebook_eyes_sv14",
+          "config": {
+            "num_minutes": true
+          },
+          "price_per": 1.3
+        },
+        {
+          "id": 81,
+          "name": "Sv1 ổn định nhất",
+          "package_name": "facebook_eyes",
+          "config": {
+            "num_minutes": true
+          },
+          "price_per": 1.8
+        },
+        {
+          "id": 275,
+          "name": "S1 Tăng mắt live dự phòng  gói 30p",
+          "package_name": "facebook_eyes_sv6",
+          "config": {
+            "num_minutes": false,
+            "num_minutes_default": "30"
+          },
+          "price_per": 57
+        },
+        {
+          "id": 276,
+          "name": "S2 Tăng mắt live dự phòng gói 60p",
+          "package_name": "facebook_eyes_sv7",
+          "config": {
+            "num_minutes": false,
+            "num_minutes_default": "60"
+          },
+          "price_per": 130
+        },
+        {
+          "id": 277,
+          "name": "S3 Tăng mắt live dự phòng gói 90p",
+          "package_name": "facebook_eyes_sv8",
+          "config": {
+            "num_minutes": false,
+            "num_minutes_default": "90"
+          },
+          "price_per": 180
+        },
+        {
+          "id": 278,
+          "name": "S4 Tăng mắt live dự phòng gói 120p",
+          "package_name": "facebook_eyes_sv9",
+          "config": {
+            "num_minutes": false,
+            "num_minutes_default": "120"
+          },
+          "price_per": 210
+        },
+        {
+          "id": 279,
+          "name": "S5 Tăng mắt live dự phòng gói 150p",
+          "package_name": "facebook_eyes_sv10",
+          "config": {
+            "num_minutes": false,
+            "num_minutes_default": "150"
+          },
+          "price_per": 270
+        },
+        {
+          "id": 289,
+          "name": "S6 Tăng mắt live dự phòng gói 180p",
+          "package_name": "facebook_eyes_sv11",
+          "config": {
+            "num_minutes": false,
+            "num_minutes_default": "180"
+          },
+          "price_per": 310
+        },
+        {
+          "id": 290,
+          "name": "S7 Tăng mắt live dự phòng gói 210p",
+          "package_name": "facebook_eyes_sv12",
+          "config": {
+            "num_minutes": false,
+            "num_minutes_default": "210"
+          },
+          "price_per": 360
+        }
+      ]
+    },
+    {
+      "name": "Tăng share",
+      "path": "/facebook-share",
+      "url_api": "/api/facebook-share/buy",
+      "package": [
+        {
+          "id": 91,
+          "name": "Share bài viết ( acc có nhiều bạn  bè  - lên nhanh)",
+          "package_name": "facebook_share_sv0",
+          "config": {},
+          "price_per": 103
+        },
+        {
+          "id": 93,
+          "name": "Share ảo [ Min 1k ] Không chạy cho video",
+          "package_name": "facebook_share_sv2",
+          "config": {},
+          "price_per": 11
+        },
+        {
+          "id": 96,
+          "name": "Share clone sale",
+          "package_name": "facebook_share_sv9",
+          "config": {},
+          "price_per": 46
+        },
+        {
+          "id": 97,
+          "name": "S2 Share live stream / Share group",
+          "package_name": "facebook_share_sv4",
+          "config": {},
+          "price_per": 105
+        },
+        {
+          "id": 98,
+          "name": "Share profile [ sale ]",
+          "package_name": "facebook_share_sv5",
+          "config": {},
+          "price_per": 70
+        },
+        {
+          "id": 99,
+          "name": "Share ảo",
+          "package_name": "facebook_share_sv7",
+          "config": {},
+          "price_per": 2.5
+        }
+      ]
+    },
+    {
+      "name": "Chọc",
+      "path": "/facebook-poke",
+      "url_api": "/api/facebook-poke/buy",
+      "package": []
+    },
+    {
+      "name": "Lọc bạn bè",
+      "path": "https://drive.google.com/file/d/1CvfYBldi9YDiWOe2kvCIyqO_kP3wed81/view?usp=sharing",
+      "url_api": "/apihttps://drive.google.com/file/d/1CvfYBldi9YDiWOe2kvCIyqO_kP3wed81/view?usp=sharing/buy",
+      "package": [
+        {
+          "id": 111,
+          "name": "Lọc bạn bè",
+          "package_name": "facebook_fill_sv1",
+          "config": {},
+          "price_per": 8000
+        }
+      ]
+    },
+    {
+      "name": "View Story",
+      "path": "/facebook-view-story",
+      "url_api": "/api/facebook-view-story/buy",
+      "package": [
+        {
+          "id": 123,
+          "name": "S2 View story",
+          "package_name": "facebook_view_story_v3",
+          "config": {},
+          "price_per": 5
+        }
+      ]
+    },
+    {
+      "name": "Review + đánh giá page",
+      "path": "/facebook-review",
+      "url_api": "/api/facebook-review/buy",
+      "package": [
+        {
+          "id": 146,
+          "name": "Đánh giá & Review  Page (Nick việt chất lượng)",
+          "package_name": "facebook_checkin_page_sv6",
+          "config": {},
+          "price_per": 300
+        },
+        {
+          "id": 147,
+          "name": "Đánh giá page pro5",
+          "package_name": "facebook_checkin_page_sv7",
+          "config": {},
+          "price_per": 1500
+        }
+      ]
+    },
+    {
+      "name": "Bot tương tác",
+      "path": "/facebook-bot-comment",
+      "url_api": "/api/facebook-bot-comment/buy",
+      "package": [
+        {
+          "id": 331,
+          "name": "sv1 bot comment",
+          "package_name": "sv1_bot_cmt",
+          "config": {},
+          "price_per": 1200
+        }
+      ]
+    },
+    {
+      "name": "Mua proxy",
+      "path": "/facebook-proxy",
+      "url_api": "/api/facebook-proxy/buy",
+      "package": [
+        {
+          "id": 336,
+          "name": "sv1 global",
+          "package_name": "sv1_proxy",
+          "config": {},
+          "price_per": 900
+        }
+      ]
+    },
+    {
+      "name": "Vip like tháng",
+      "path": "/facebook-vip-clone",
+      "url_api": "/api/facebook-vip-clone/buy",
+      "package": [
+        {
+          "id": 25,
+          "name": "Tối đa 300 like / bài - Không hạn chế bài",
+          "package_name": "facebook_vip_clone_sale_v29",
+          "config": {
+            "max_post": 9999,
+            "slbv": false,
+            "package": true
+          },
+          "price_per": 8650
+        },
+        {
+          "id": 30,
+          "name": "Tối đa 400 like / bài - Không hạn chế bài đăng",
+          "package_name": "facebook_vip_clone_sale_v32",
+          "config": {
+            "max_post": 9999,
+            "slbv": false,
+            "package": true
+          },
+          "price_per": 12500
+        },
+        {
+          "id": 151,
+          "name": "Tối đa 30 like / 1 bài - 1 ngày 4 bài",
+          "package_name": "facebook_vip_clone_sale_v20",
+          "config": {
+            "max_post": 4,
+            "slbv": false,
+            "package": true
+          },
+          "price_per": 550
+        },
+        {
+          "id": 152,
+          "name": "S1 Vip Like clone ( ổn )",
+          "package_name": "facebook_vip_clone_sale_v3",
+          "config": {
+            "slbv": true,
+            "package": false
+          },
+          "price_per": 27.5
+        },
+        {
+          "id": 153,
+          "name": "Tối đa 30 like / 1 bài -  không giới hạn bài đăng",
+          "package_name": "facebook_vip_clone_sale_v21",
+          "config": {
+            "max_post": 9999,
+            "slbv": false,
+            "package": true
+          },
+          "price_per": 950
+        },
+        {
+          "id": 154,
+          "name": "Vip like via độc quyền",
+          "package_name": "facebook_vip_clone_sale_v11",
+          "config": {
+            "slbv": false,
+            "package": false
+          },
+          "price_per": 29.5
+        },
+        {
+          "id": 155,
+          "name": "Tối đa 50 like / 1 bài - 1 Ngày 4 bài",
+          "package_name": "facebook_vip_clone_sale_v22",
+          "config": {
+            "max_post": 4,
+            "slbv": false,
+            "package": true
+          },
+          "price_per": 650
+        },
+        {
+          "id": 156,
+          "name": "Tối đa 50 like / 1 bài - 1 Ngày 8 bài",
+          "package_name": "facebook_vip_clone_sale_v23",
+          "config": {
+            "max_post": 8,
+            "slbv": false,
+            "package": true
+          },
+          "price_per": 1150
+        },
+        {
+          "id": 157,
+          "name": "S3 Vip clone sale",
+          "package_name": "facebook_vip_clone_sale_v8",
+          "config": {
+            "slbv": true,
+            "package": false
+          },
+          "price_per": 30.5
+        },
+        {
+          "id": 158,
+          "name": "Tối đa 100 like /1 bài - Ngày max 4 bài",
+          "package_name": "facebook_vip_clone_sale_v24",
+          "config": {
+            "max_post": 4,
+            "slbv": false,
+            "package": true
+          },
+          "price_per": 1050
+        },
+        {
+          "id": 159,
+          "name": "Tối đa 200 like / bài - Ngày max 8 bài",
+          "package_name": "facebook_vip_clone_sale_v25",
+          "config": {
+            "max_post": 8,
+            "slbv": false,
+            "package": true
+          },
+          "price_per": 4450
+        },
+        {
+          "id": 160,
+          "name": "S2 vip clone sale",
+          "package_name": "facebook_vip_clone_sale_v1",
+          "config": {
+            "slbv": false,
+            "package": false
+          },
+          "price_per": 24
+        },
+        {
+          "id": 267,
+          "name": "Tối đa 300 like / bài - Ngày max 4 bài",
+          "package_name": "facebook_vip_clone_sale_v27",
+          "config": {
+            "max_post": 4,
+            "slbv": false,
+            "package": true
+          },
+          "price_per": 4450
+        },
+        {
+          "id": 269,
+          "name": "Tối đa 300 like / bài - Ngày max 8 bài",
+          "package_name": "facebook_vip_clone_sale_v28",
+          "config": {
+            "max_post": 8,
+            "slbv": false,
+            "package": true
+          },
+          "price_per": 6550
+        },
+        {
+          "id": 282,
+          "name": "Tối đa 400 like / bài - Ngày max 4 bài",
+          "package_name": "facebook_vip_clone_sale_v30",
+          "config": {
+            "max_post": 4,
+            "slbv": false,
+            "package": true
+          },
+          "price_per": 5950
+        },
+        {
+          "id": 284,
+          "name": "Tối đa 400 like / bài - Ngày max 8 bài",
+          "package_name": "facebook_vip_clone_sale_v31",
+          "config": {
+            "max_post": 8,
+            "slbv": false,
+            "package": true
+          },
+          "price_per": 8550
+        },
+        {
+          "id": 288,
+          "name": "Tối đa 500 like / bài - Ngày max 4 bài",
+          "package_name": "facebook_vip_clone_sale_v33",
+          "config": {
+            "max_post": 4,
+            "slbv": false,
+            "package": true
+          },
+          "price_per": 8050
+        },
+        {
+          "id": 335,
+          "name": "Tối đa 150 like / bài - Ngày max 4 bài",
+          "package_name": "facebook_vip_clone_sale_v12",
+          "config": {
+            "max_post": 4,
+            "slbv": false,
+            "package": true
+          },
+          "price_per": 2450
+        },
+        {
+          "id": 337,
+          "name": "Tối đa 150 like / bài - Ngày max 8 bài",
+          "package_name": "facebook_vip_clone_sale_v13",
+          "config": {
+            "max_post": 8,
+            "slbv": false,
+            "package": true
+          },
+          "price_per": 3350
+        },
+        {
+          "id": 374,
+          "name": "Tối đa 50 like /1 bài - Không hạn chế bài đăng",
+          "package_name": "facebook_vip_clone_sale_v14",
+          "config": {
+            "max_post": 9999,
+            "slbv": false,
+            "package": true
+          },
+          "price_per": 1550
+        },
+        {
+          "id": 375,
+          "name": "Tối đa 100 like / bài - Ngày max 8 bài",
+          "package_name": "facebook_vip_clone_sale_v15",
+          "config": {
+            "max_post": 8,
+            "slbv": false,
+            "package": true
+          },
+          "price_per": 2450
+        },
+        {
+          "id": 376,
+          "name": "Tối đa 100 like / bài - Không hạn chế bài đăng",
+          "package_name": "facebook_vip_clone_sale_v16",
+          "config": {
+            "max_post": 9999,
+            "slbv": false,
+            "package": true
+          },
+          "price_per": 3050
+        },
+        {
+          "id": 378,
+          "name": "Tối đa 150 like / bài - Không hạn chế bài",
+          "package_name": "facebook_vip_clone_sale_v17",
+          "config": {
+            "max_post": 9999,
+            "slbv": false,
+            "package": true
+          },
+          "price_per": 4450
+        },
+        {
+          "id": 379,
+          "name": "Tối đa 200 like / bài - Ngày max 4 bài",
+          "package_name": "facebook_vip_clone_sale_v18",
+          "config": {
+            "max_post": 4,
+            "slbv": false,
+            "package": true
+          },
+          "price_per": 3050
+        },
+        {
+          "id": 380,
+          "name": "Tối đa 200 like / bài - Không hạn chế bài",
+          "package_name": "facebook_vip_clone_sale_v19",
+          "config": {
+            "max_post": 9999,
+            "slbv": false,
+            "package": true
+          },
+          "price_per": 5950
+        }
+      ]
+    },
+    {
+      "name": "Vip mắt live",
+      "path": "/facebook-vip-eyes",
+      "url_api": "/api/facebook-vip-eyes/buy",
+      "package": []
+    },
+    {
+      "name": "Vip bình luận",
+      "path": "/facebook-vip-comment",
+      "url_api": "/api/facebook-vip-comment/buy",
+      "package": [
+        {
+          "id": 321,
+          "name": "Sv1 vip comment",
+          "package_name": "vip_comment_sv1",
+          "config": {
+            "slbv": true
+          },
+          "price_per": 6700
+        },
+        {
+          "id": 324,
+          "name": "Sv3 Vip cmt clone",
+          "package_name": "vip_comment_sv4",
+          "config": {
+            "slbv": true
+          },
+          "price_per": 7200
+        }
+      ]
+    },
+    {
+      "name": "Tăng like instagram",
+      "path": "/instagram-like",
+      "url_api": "/api/instagram-like/buy",
+      "package": [
+        {
+          "id": 166,
+          "name": "Sv3 Like Việt rẻ",
+          "package_name": "instagram_like_sv5",
+          "config": {},
+          "price_per": 10
+        },
+        {
+          "id": 168,
+          "name": "S5 Like tây rẻ nhanh",
+          "package_name": "instagram_like_sv7",
+          "config": {},
+          "price_per": 1.9
+        },
+        {
+          "id": 169,
+          "name": "S6 Like tây rẻ siêu nhanh",
+          "package_name": "instagram_like_sv8",
+          "config": {},
+          "price_per": 6
+        },
+        {
+          "id": 170,
+          "name": "s7 Like tây rẻ siêu nhanh",
+          "package_name": "instagram_like_sv9",
+          "config": {},
+          "price_per": 3
+        }
+      ]
+    },
+    {
+      "name": "Tăng follow instagram",
+      "path": "/instagram-follow",
+      "url_api": "/api/instagram-follow/buy",
+      "package": [
+        {
+          "id": 171,
+          "name": "S1 Follower instagram Việt",
+          "package_name": "instagram_follow_sv1",
+          "config": {},
+          "price_per": 29
+        },
+        {
+          "id": 175,
+          "name": "S2 Follower tây nhanh [ Tốt ]",
+          "package_name": "instagram_follow_sv5",
+          "config": {},
+          "price_per": 35.5
+        },
+        {
+          "id": 179,
+          "name": "Sv2 Follow việt giá rẻ",
+          "package_name": "instagram_follow_sv9",
+          "config": {},
+          "price_per": 14.9
+        },
+        {
+          "id": 180,
+          "name": "Sv3 Follow việt giá rẻ",
+          "package_name": "instagram_follow_sv10",
+          "config": {},
+          "price_per": 17.5
+        }
+      ]
+    },
+    {
+      "name": "Tăng comment",
+      "path": "/instagram-comment",
+      "url_api": "/api/instagram-comment/buy",
+      "package": [
+        {
+          "id": 181,
+          "name": "Cmt  nhanh",
+          "package_name": "instagram_comment_10",
+          "config": {},
+          "price_per": 99
+        },
+        {
+          "id": 182,
+          "name": "S2 Cmt Việt Nam xịn",
+          "package_name": "instagram_comment_sv1",
+          "config": {},
+          "price_per": 85
+        }
+      ]
+    },
+    {
+      "name": "Tăng view instagram",
+      "path": "/instagram-view",
+      "url_api": "/api/instagram-view/buy",
+      "package": [
+        {
+          "id": 192,
+          "name": "Instagram story view",
+          "package_name": "instagram_story_view_253",
+          "config": {},
+          "price_per": 5
+        },
+        {
+          "id": 194,
+          "name": "S1 Tăng like livestream",
+          "package_name": "instagram_view_sv2",
+          "config": {},
+          "price_per": 15
+        },
+        {
+          "id": 195,
+          "name": "S2 Tăng mắt livestream 15p",
+          "package_name": "instagram_view_sv0",
+          "config": {},
+          "price_per": 46
+        },
+        {
+          "id": 198,
+          "name": "S3 Tăng mắt livestream 30p",
+          "package_name": "instagram_view_sv1",
+          "config": {},
+          "price_per": 66
+        },
+        {
+          "id": 245,
+          "name": "S4 Tăng mắt livestream 60p",
+          "package_name": "instagram_view_sv3",
+          "config": {},
+          "price_per": 126
+        },
+        {
+          "id": 246,
+          "name": "S5 Tăng mắt livestream 90p",
+          "package_name": "instagram_view_sv4",
+          "config": {},
+          "price_per": 216
+        },
+        {
+          "id": 247,
+          "name": "S6 Tăng mắt livestream 120p",
+          "package_name": "instagram_view_sv5",
+          "config": {},
+          "price_per": 246
+        },
+        {
+          "id": 248,
+          "name": "S7 Tăng mắt livestream 3h",
+          "package_name": "instagram_view_sv6",
+          "config": {},
+          "price_per": 326
+        },
+        {
+          "id": 249,
+          "name": "Sv1 view rẻ chậm",
+          "package_name": "instagram_view_sv7",
+          "config": {},
+          "price_per": 3
+        },
+        {
+          "id": 250,
+          "name": "Sv2 view rẻ nhanh",
+          "package_name": "instagram_view_sv8",
+          "config": {},
+          "price_per": 4
+        }
+      ]
+    },
+    {
+      "name": "Vip like instagram",
+      "path": "/instagram-vip-like",
+      "url_api": "/api/instagram-vip-like/buy",
+      "package": [
+        {
+          "id": 371,
+          "name": "Vip Like nhanh",
+          "package_name": "instagram_vip_like_sv1",
+          "config": {},
+          "price_per": 19
+        },
+        {
+          "id": 377,
+          "name": "Vip Like nhanh",
+          "package_name": "instagram_vip_like_sv1",
+          "config": {},
+          "price_per": 10000
+        }
+      ]
+    },
+    {
+      "name": "View story instagram",
+      "path": "/instagram-view-story",
+      "url_api": "/api/instagram-view-story/buy",
+      "package": [
+        {
+          "id": 196,
+          "name": "Sv1 View story",
+          "package_name": "instagram_view_story_sv0",
+          "config": {},
+          "price_per": 5.8
+        }
+      ]
+    },
+    {
+      "name": "THREADS - FOLLOW",
+      "path": "/threads-follow",
+      "url_api": "/api/threads-follow/buy",
+      "package": [
+        {
+          "id": 76,
+          "name": "S1 Threads Follow",
+          "package_name": "threads_follow_sv4",
+          "config": {},
+          "price_per": 24
+        },
+        {
+          "id": 184,
+          "name": "S2 Threads Follow",
+          "package_name": "threads_follow_sv3",
+          "config": {},
+          "price_per": 27
+        },
+        {
+          "id": 185,
+          "name": "S3 Threads Follow",
+          "package_name": "threads_follow_sv2",
+          "config": {},
+          "price_per": 87
+        }
+      ]
+    },
+    {
+      "name": "THREADS - LIKE",
+      "path": "/threads-like",
+      "url_api": "/api/threads-like/buy",
+      "package": [
+        {
+          "id": 323,
+          "name": "S1 Threads like",
+          "package_name": "threads_like_sv4",
+          "config": {},
+          "price_per": 77
+        },
+        {
+          "id": 325,
+          "name": "S2 Threads like",
+          "package_name": "threads_like_sv5",
+          "config": {},
+          "price_per": 78
+        },
+        {
+          "id": 326,
+          "name": "S3 Threads like",
+          "package_name": "threads_like_sv6",
+          "config": {},
+          "price_per": 82
+        }
+      ]
+    },
+    {
+      "name": "THREADS - SHARE",
+      "path": "/threads-share",
+      "url_api": "/api/threads-share/buy",
+      "package": [
+        {
+          "id": 348,
+          "name": "Threads share",
+          "package_name": "threads_share_sv1",
+          "config": {},
+          "price_per": 155
+        }
+      ]
+    },
+    {
+      "name": "Tăng save Tiktok",
+      "path": "/tiktok-save",
+      "url_api": "/api/tiktok-save/buy",
+      "package": [
+        {
+          "id": 274,
+          "name": "S2 save video Việt",
+          "package_name": "tiktok_save_sv2",
+          "config": {},
+          "price_per": 15.5
+        },
+        {
+          "id": 280,
+          "name": "S3 save video [ tài nguyên Tây ]",
+          "package_name": "tiktok_save_sv3",
+          "config": {},
+          "price_per": 2.5
+        }
+      ]
+    },
+    {
+      "name": "Tăng like tiktok",
+      "path": "/tiktok-like",
+      "url_api": "/api/tiktok-like/buy",
+      "package": [
+        {
+          "id": 201,
+          "name": "S2 Like tiktok việt high",
+          "package_name": "tiktok_like_20",
+          "config": {},
+          "price_per": 15.5
+        },
+        {
+          "id": 202,
+          "name": "Like TikTok việt giá rẻ",
+          "package_name": "tiktok_like_v21",
+          "config": {},
+          "price_per": 13
+        },
+        {
+          "id": 203,
+          "name": "S8 like TikTok tây",
+          "package_name": "tiktok_like_v12",
+          "config": {},
+          "price_per": 4.5
+        },
+        {
+          "id": 204,
+          "name": "S7 Like Tiktok tây",
+          "package_name": "tiktok_like_v14",
+          "config": {},
+          "price_per": 11
+        },
+        {
+          "id": 206,
+          "name": "S4 like tiktok việt",
+          "package_name": "tiktok_like_v13",
+          "config": {},
+          "price_per": 10.5
+        },
+        {
+          "id": 208,
+          "name": "S5 Like tiktok Tây Nhanh",
+          "package_name": "tiktok_like_v10",
+          "config": {},
+          "price_per": 6.5
+        },
+        {
+          "id": 210,
+          "name": "S2 Tăng Tym livestream Tiktok",
+          "package_name": "tiktok_like_v15",
+          "config": {},
+          "price_per": 2.5
+        }
+      ]
+    },
+    {
+      "name": "Tăng follow tiktok",
+      "path": "/tiktok-follow",
+      "url_api": "/api/tiktok-follow/buy",
+      "package": [
+        {
+          "id": 211,
+          "name": "S6 Follow tiktok việt",
+          "package_name": "tiktok_follow_sv13",
+          "config": {},
+          "price_per": 21
+        },
+        {
+          "id": 212,
+          "name": "S9 follow tiktok tây",
+          "package_name": "tiktok_follow_sv18",
+          "config": {},
+          "price_per": 8.5
+        },
+        {
+          "id": 213,
+          "name": "S11 Follow tiktok tây nhanh",
+          "package_name": "tiktok_follow_sv23",
+          "config": {},
+          "price_per": 31
+        },
+        {
+          "id": 214,
+          "name": "Follow TikTok Việt High",
+          "package_name": "tiktok_follow_sv20",
+          "config": {},
+          "price_per": 48
+        },
+        {
+          "id": 215,
+          "name": "S3 Follow Tiktok Việt",
+          "package_name": "tiktok_follow_sv11",
+          "config": {},
+          "price_per": 28
+        },
+        {
+          "id": 218,
+          "name": "S4 Follow TikTok Việt",
+          "package_name": "tiktok_follow_sv8",
+          "config": {},
+          "price_per": 29
+        },
+        {
+          "id": 219,
+          "name": "S2 Follow TikTok Việt High",
+          "package_name": "tiktok_follow_sv16",
+          "config": {},
+          "price_per": 74
+        },
+        {
+          "id": 220,
+          "name": "S10 Follow tiktok tây",
+          "package_name": "tiktok_follow_sv19",
+          "config": {},
+          "price_per": 13.5
+        }
+      ]
+    },
+    {
+      "name": "Tăng view tiktok",
+      "path": "/tiktok-view",
+      "url_api": "/api/tiktok-view/buy",
+      "package": [
+        {
+          "id": 222,
+          "name": "View Tăng tỉ lệ lên xu hướng [ Trending ]",
+          "package_name": "tiktok_view_s5",
+          "config": {},
+          "price_per": 1.7
+        },
+        {
+          "id": 227,
+          "name": "S3 view siêu tốc sale",
+          "package_name": "tiktok_view_s20",
+          "config": {},
+          "price_per": 0.07
+        },
+        {
+          "id": 228,
+          "name": "S2 view siêu tốc sale",
+          "package_name": "tiktok_view_s18",
+          "config": {},
+          "price_per": 0.05
+        },
+        {
+          "id": 229,
+          "name": "View tiktok siêu tốc",
+          "package_name": "tiktok_view_s17",
+          "config": {},
+          "price_per": 0.06
+        }
+      ]
+    },
+    {
+      "name": "Mua acc TikTok",
+      "path": "https://docs.google.com/spreadsheets/d/1bbD4UoB6D1aNI1y7Osx5G93oUxmGuydWuC8qEd3q7FI/edit#gid=0",
+      "url_api": "/apihttps://docs.google.com/spreadsheets/d/1bbD4UoB6D1aNI1y7Osx5G93oUxmGuydWuC8qEd3q7FI/edit#gid=0/buy",
+      "package": []
+    },
+    {
+      "name": "Tăng comment tiktok",
+      "path": "/tiktok-comment",
+      "url_api": "/api/tiktok-comment/buy",
+      "package": [
+        {
+          "id": 292,
+          "name": "S4 Cmt Tiktok Việt nhanh",
+          "package_name": "tiktok_comment_sv2",
+          "config": {},
+          "price_per": 155
+        },
+        {
+          "id": 293,
+          "name": "S6 cmt tiktok Việt High",
+          "package_name": "tiktok_comment_sv12",
+          "config": {},
+          "price_per": 116
+        },
+        {
+          "id": 294,
+          "name": "S2 Cmt Tiktok Việt",
+          "package_name": "tiktok_comment_sv4",
+          "config": {},
+          "price_per": 100
+        },
+        {
+          "id": 295,
+          "name": "Cmt Tiktok Live Việt Nam",
+          "package_name": "tiktok_comment_sv13",
+          "config": {},
+          "price_per": 420
+        },
+        {
+          "id": 297,
+          "name": "S7 cmt tiktok Việt",
+          "package_name": "tiktok_comment_sv14",
+          "config": {},
+          "price_per": 113
+        }
+      ]
+    },
+    {
+      "name": "Tăng share tiktok",
+      "path": "/tiktok-share",
+      "url_api": "/api/tiktok-share/buy",
+      "package": [
+        {
+          "id": 59,
+          "name": "S2 Share video tiktok giá rẻ",
+          "package_name": "tiktok_share_7",
+          "config": {},
+          "price_per": 3.3
+        },
+        {
+          "id": 287,
+          "name": "Share video tiktok Việt Nam",
+          "package_name": "tiktok_share_6",
+          "config": {},
+          "price_per": 12.5
+        },
+        {
+          "id": 398,
+          "name": "S3 Share Tiktok Tốc Tây",
+          "package_name": "tiktok_share_398",
+          "config": null,
+          "price_per": 4.5
+        },
+        {
+          "id": 399,
+          "name": "S4 Share Tiktok Tốc Tây",
+          "package_name": "tiktok_share_399",
+          "config": null,
+          "price_per": 10.5
+        }
+      ]
+    },
+    {
+      "name": "Tăng mắt live tiktok",
+      "path": "/tiktok-live",
+      "url_api": "/api/tiktok-live/buy",
+      "package": [
+        {
+          "id": 5,
+          "name": "Mắt live Tiktok Việt Nam | Gói 90p",
+          "package_name": "tiktok_live_14",
+          "config": {},
+          "price_per": 200
+        },
+        {
+          "id": 22,
+          "name": "Mắt live 15 phút",
+          "package_name": "tiktok_live_11",
+          "config": {},
+          "price_per": 80
+        },
+        {
+          "id": 23,
+          "name": "Mắt live 30 phút",
+          "package_name": "tiktok_live_10",
+          "config": {},
+          "price_per": 95
+        },
+        {
+          "id": 24,
+          "name": "Like livestream không giới hạn",
+          "package_name": "tiktok_live_12",
+          "config": {},
+          "price_per": 2.5
+        },
+        {
+          "id": 50,
+          "name": "Mắt live Tiktok Việt Nam | Gói 240p",
+          "package_name": "tiktok_live_19",
+          "config": {},
+          "price_per": 320
+        },
+        {
+          "id": 56,
+          "name": "Mắt live Tiktok Việt Nam | Gói 270p",
+          "package_name": "tiktok_live_20",
+          "config": {},
+          "price_per": 370
+        },
+        {
+          "id": 302,
+          "name": "Mắt live Tiktok Việt Nam | Gói 30p",
+          "package_name": "tiktok_live_15",
+          "config": {},
+          "price_per": 120
+        },
+        {
+          "id": 303,
+          "name": "Mắt live Tiktok Việt Nam | Gói 60p",
+          "package_name": "tiktok_live_16",
+          "config": {},
+          "price_per": 170
+        },
+        {
+          "id": 304,
+          "name": "Mắt live Tiktok Việt Nam | Gói 120p",
+          "package_name": "tiktok_live_17",
+          "config": {},
+          "price_per": 230
+        },
+        {
+          "id": 305,
+          "name": "Mắt live Tiktok Việt Nam | Gói 180p",
+          "package_name": "tiktok_live_18",
+          "config": {},
+          "price_per": 280
+        },
+        {
+          "id": 306,
+          "name": "Mắt live 60 phút",
+          "package_name": "tiktok_live_5",
+          "config": {},
+          "price_per": 220
+        },
+        {
+          "id": 307,
+          "name": "Mắt live  90 phút",
+          "package_name": "tiktok_live_6",
+          "config": {},
+          "price_per": 280
+        },
+        {
+          "id": 309,
+          "name": "Mắt live 120p",
+          "package_name": "tiktok_live_7",
+          "config": {},
+          "price_per": 420
+        },
+        {
+          "id": 310,
+          "name": "Mắt live 180p",
+          "package_name": "tiktok_live_9",
+          "config": {},
+          "price_per": 620
+        },
+        {
+          "id": 360,
+          "name": "Mắt live tiktok sale | gói 15p",
+          "package_name": "tiktok_live_26",
+          "config": {},
+          "price_per": 22
+        },
+        {
+          "id": 361,
+          "name": "Mắt live tiktok sale | gói 30p",
+          "package_name": "tiktok_live_27",
+          "config": {},
+          "price_per": 37
+        },
+        {
+          "id": 362,
+          "name": "Mắt live tiktok sale | gói 60p",
+          "package_name": "tiktok_live_28",
+          "config": {},
+          "price_per": 69
+        },
+        {
+          "id": 363,
+          "name": "Mắt live tiktok sale | gói 90p",
+          "package_name": "tiktok_live_29",
+          "config": {},
+          "price_per": 84
+        },
+        {
+          "id": 373,
+          "name": "Mắt live tiktok sale | gói 120p",
+          "package_name": "tiktok_live_30",
+          "config": {},
+          "price_per": 136
+        },
+        {
+          "id": 394,
+          "name": "Mắt live tiktok sale | gói 180p",
+          "package_name": "tiktok_live_31",
+          "config": {},
+          "price_per": 185
+        },
+        {
+          "id": 395,
+          "name": "Mắt live tiktok sale | gói 240p",
+          "package_name": "tiktok_live_32",
+          "config": {},
+          "price_per": 212
+        }
+      ]
+    },
+    {
+      "name": "Tiktok Shop Mua hàng",
+      "path": "/tiktok-shop-mua-hang",
+      "url_api": "/api/tiktok-shop-mua-hang/buy",
+      "package": [
+        {
+          "id": 18,
+          "name": "TikTok shop - 10 lượt bán sản phẩm",
+          "package_name": "tiktok_shop_mua_hang_sv1",
+          "config": {
+            "package": true
+          },
+          "price_per": 52000
+        },
+        {
+          "id": 19,
+          "name": "TikTok shop - 30 lượt bán sản phẩm",
+          "package_name": "tiktok_shop_mua_hang_sv2",
+          "config": {
+            "package": true
+          },
+          "price_per": 57000
+        },
+        {
+          "id": 20,
+          "name": "TikTok shop - 50 lượt bán sản phẩm",
+          "package_name": "tiktok_shop_mua_hang_sv3",
+          "config": {
+            "package": true
+          },
+          "price_per": 67000
+        },
+        {
+          "id": 28,
+          "name": "TikTok shop - 100 lượt bán sản phẩm",
+          "package_name": "tiktok_shop_mua_hang_sv5",
+          "config": {
+            "package": true
+          },
+          "price_per": 111000
+        },
+        {
+          "id": 29,
+          "name": "TikTok shop - 300 lượt bán sản phẩm",
+          "package_name": "tiktok_shop_mua_hang_sv6",
+          "config": {
+            "package": true
+          },
+          "price_per": 412000
+        }
+      ]
+    },
+    {
+      "name": "Tiktok Shop Stream - Hiển thị mua hàng",
+      "path": "/tiktok-shop-stream-hien-thi-mua-hang",
+      "url_api": "/api/tiktok-shop-stream-hien-thi-mua-hang/buy",
+      "package": [
+        {
+          "id": 60,
+          "name": "Tiktok shop stream - 10 lượt đang mua",
+          "package_name": "tiktok_shop_stream_mua_hang_sv1",
+          "config": {
+            "quantity": false,
+            "token": true,
+            "cookie": true,
+            "package": true
+          },
+          "price_per": 17000
+        },
+        {
+          "id": 86,
+          "name": "Tiktok shop stream - 20 lượt đang mua",
+          "package_name": "tiktok_shop_stream_mua_hang_sv2",
+          "config": {
+            "quantity": false,
+            "token": true,
+            "cookie": true,
+            "package": true
+          },
+          "price_per": 21000
+        },
+        {
+          "id": 87,
+          "name": "Tiktok shop stream - 50 lượt đang mua",
+          "package_name": "tiktok_shop_stream_mua_hang_sv3",
+          "config": {
+            "quantity": false,
+            "token": true,
+            "cookie": true,
+            "package": true
+          },
+          "price_per": 36000
+        },
+        {
+          "id": 88,
+          "name": "Tiktok shop stream - 70 lượt đang mua",
+          "package_name": "tiktok_shop_stream_mua_hang_sv4",
+          "config": {
+            "quantity": false,
+            "token": true,
+            "cookie": true,
+            "package": true
+          },
+          "price_per": 46000
+        },
+        {
+          "id": 89,
+          "name": "Tiktok shop stream - 100 lượt đang mua",
+          "package_name": "tiktok_shop_stream_mua_hang_sv5",
+          "config": {
+            "quantity": false,
+            "token": true,
+            "cookie": true,
+            "package": true
+          },
+          "price_per": 66000
+        },
+        {
+          "id": 90,
+          "name": "Tiktok shop stream - 200 lượt đang mua",
+          "package_name": "tiktok_shop_stream_mua_hang_sv6",
+          "config": {
+            "quantity": false,
+            "token": true,
+            "cookie": true,
+            "package": true
+          },
+          "price_per": 106000
+        },
+        {
+          "id": 95,
+          "name": "Tiktok shop stream - 300 lượt đang mua",
+          "package_name": "tiktok_shop_stream_mua_hang_sv7",
+          "config": {
+            "quantity": false,
+            "token": true,
+            "cookie": true,
+            "package": true
+          },
+          "price_per": 161000
+        }
+      ]
+    },
+    {
+      "name": "Tiktok Shop Stream - Gói đang mua hàng",
+      "path": "/tiktok-shop-stream-dang-mua-hang",
+      "url_api": "/api/tiktok-shop-stream-dang-mua-hang/buy",
+      "package": [
+        {
+          "id": 108,
+          "name": "Tăng cmt tiktok live",
+          "package_name": "tiktok_shop_stream_dang_mua_hang_sv3",
+          "config": {},
+          "price_per": 320
+        }
+      ]
+    },
+    {
+      "name": "Youtube Like",
+      "path": "/youtube-like",
+      "url_api": "/api/youtube-like/buy",
+      "package": [
+        {
+          "id": 234,
+          "name": "Like rẻ nhanh",
+          "package_name": "youtube_like_sv4",
+          "config": {},
+          "price_per": 13.5
+        },
+        {
+          "id": 235,
+          "name": "S2 Like rẻ nhanh",
+          "package_name": "youtube_like_sv5",
+          "config": {},
+          "price_per": 8.5
+        },
+        {
+          "id": 236,
+          "name": "S1 Youtube Likes TAB Cộng đồng",
+          "package_name": "youtube_like_sv6",
+          "config": {},
+          "price_per": 42
+        },
+        {
+          "id": 238,
+          "name": "S4 like nhanh chất lượng cao",
+          "package_name": "youtube_like_sv8",
+          "config": {},
+          "price_per": 15.5
+        }
+      ]
+    },
+    {
+      "name": "Youtube Sub",
+      "path": "/youtube-sub",
+      "url_api": "/api/youtube-sub/buy",
+      "package": [
+        {
+          "id": 241,
+          "name": "S2 Sub Youtobe",
+          "package_name": "youtube_sub_v5",
+          "config": {},
+          "price_per": 165
+        },
+        {
+          "id": 242,
+          "name": "S1 Sub Youtobe",
+          "package_name": "youtube_sub_v6",
+          "config": {},
+          "price_per": 120
+        },
+        {
+          "id": 244,
+          "name": "Sv3 Sub Youtobe",
+          "package_name": "youtube_sub_v4",
+          "config": {},
+          "price_per": 160
+        }
+      ]
+    },
+    {
+      "name": "Youtube View + Live",
+      "path": "/youtube-view",
+      "url_api": "/api/youtube-view/buy",
+      "package": [
+        {
+          "id": 33,
+          "name": "S10 View xịn - có tiền",
+          "package_name": "youtube_view_sv38",
+          "config": {},
+          "price_per": 36
+        },
+        {
+          "id": 129,
+          "name": "Sv2 View dành cho short video [ rẻ ]",
+          "package_name": "youtube_view_sv22",
+          "config": {},
+          "price_per": 47
+        },
+        {
+          "id": 251,
+          "name": "S6 view video/shorts chất lượng cao",
+          "package_name": "youtube_view_sv26",
+          "config": {},
+          "price_per": 36
+        },
+        {
+          "id": 254,
+          "name": "S7 view video/shorts nhanh",
+          "package_name": "youtube_view_sv17",
+          "config": {},
+          "price_per": 34
+        },
+        {
+          "id": 285,
+          "name": "S9 view chất lượng cao",
+          "package_name": "youtube_view_sv37",
+          "config": {},
+          "price_per": 36
+        }
+      ]
+    },
+    {
+      "name": "Youtube Comment",
+      "path": "/youtube-comment",
+      "url_api": "/api/youtube-comment/buy",
+      "package": [
+        {
+          "id": 364,
+          "name": "S2 Bình luận Youtobe Việt Nam",
+          "package_name": "youtube_comment_4",
+          "config": {},
+          "price_per": 243
+        }
+      ]
+    },
+    {
+      "name": "Youtube Livestream",
+      "path": "/youtube-live",
+      "url_api": "/api/youtube-live/buy",
+      "package": [
+        {
+          "id": 106,
+          "name": "Mắt live Youtube | Gói 15p",
+          "package_name": "youtube_view_sv28",
+          "config": {},
+          "price_per": 23
+        },
+        {
+          "id": 112,
+          "name": "Mắt live Youtube | Gói 30p",
+          "package_name": "youtube_view_sv29",
+          "config": {},
+          "price_per": 48
+        },
+        {
+          "id": 121,
+          "name": "Mắt live Youtube | Gói 60p",
+          "package_name": "youtube_view_sv30",
+          "config": {},
+          "price_per": 75
+        },
+        {
+          "id": 125,
+          "name": "Mắt live Youtube | Gói 90p",
+          "package_name": "youtube_view_sv31",
+          "config": {},
+          "price_per": 130
+        },
+        {
+          "id": 126,
+          "name": "Mắt live Youtube | Gói 120p",
+          "package_name": "youtube_view_sv32",
+          "config": {},
+          "price_per": 160
+        },
+        {
+          "id": 127,
+          "name": "Mắt live Youtube | Gói 180p",
+          "package_name": "youtube_view_sv33",
+          "config": {},
+          "price_per": 210
+        },
+        {
+          "id": 199,
+          "name": "Mắt live Youtube | Gói 240p",
+          "package_name": "youtube_view_sv34",
+          "config": {},
+          "price_per": 320
+        },
+        {
+          "id": 255,
+          "name": "Mắt live Youtube | Gói 6h",
+          "package_name": "youtube_view_sv35",
+          "config": {},
+          "price_per": 420
+        },
+        {
+          "id": 283,
+          "name": "S3 Youtube live độc quyền nên nhanh",
+          "package_name": "youtube_live_sv1",
+          "config": {},
+          "price_per": 82
+        },
+        {
+          "id": 286,
+          "name": "S1 Youtube live đơn lớn [ Min 5k - Max 10k ]",
+          "package_name": "youtube_live_sv4",
+          "config": {},
+          "price_per": 38
+        }
+      ]
+    },
+    {
+      "name": "Youtube Share",
+      "path": "/youtube-share",
+      "url_api": "/api/youtube-share/buy",
+      "package": [
+        {
+          "id": 240,
+          "name": "Share Youtube trên Facebook",
+          "package_name": "youtube_share_sv1",
+          "config": {},
+          "price_per": 36.5
+        },
+        {
+          "id": 264,
+          "name": "Share Youtube trên Twitter",
+          "package_name": "youtube_share_sv2",
+          "config": {},
+          "price_per": 29.5
+        },
+        {
+          "id": 265,
+          "name": "Share Youtube trên Reddit",
+          "package_name": "youtube_share_sv3",
+          "config": {},
+          "price_per": 29.5
+        }
+      ]
+    },
+    {
+      "name": "THREADS - COMMENT",
+      "path": "/threads-comment",
+      "url_api": "/api/threads-comment/buy",
+      "package": [
+        {
+          "id": 342,
+          "name": "S1 Cmt Threads",
+          "package_name": "threads_comment_sv1",
+          "config": {},
+          "price_per": 310
+        }
+      ]
+    },
+    {
+      "name": "Youtube Live",
+      "path": "/youtube-live",
+      "url_api": "/api/youtube-live/buy",
+      "package": []
+    },
+    {
+      "name": "Shopee Like",
+      "path": "/shopee-like",
+      "url_api": "/api/shopee-like/buy",
+      "package": [
+        {
+          "id": 261,
+          "name": "Shopee like",
+          "package_name": "shopee_like",
+          "config": {},
+          "price_per": 55
+        },
+        {
+          "id": 262,
+          "name": "S2 like Shopee giá rẻ",
+          "package_name": "shopee_like_sv2",
+          "config": {},
+          "price_per": 31
+        }
+      ]
+    },
+    {
+      "name": "Shopee Follow",
+      "path": "/shopee-follow",
+      "url_api": "/api/shopee-follow/buy",
+      "package": [
+        {
+          "id": 271,
+          "name": "Shopee follow",
+          "package_name": "shopee_follow",
+          "config": {},
+          "price_per": 93
+        },
+        {
+          "id": 272,
+          "name": "S2 Follow Shoppe [ Rẻ +  nhanh ]",
+          "package_name": "shopee_follow_v2",
+          "config": {},
+          "price_per": 76
+        }
+      ]
+    },
+    {
+      "name": "Shopee live",
+      "path": "/shopee-live",
+      "url_api": "/api/shopee-live/buy",
+      "package": [
+        {
+          "id": 11,
+          "name": "Shopee live 15p",
+          "package_name": "shopee_live_sv1",
+          "config": {},
+          "price_per": 75
+        },
+        {
+          "id": 12,
+          "name": "Shopee live 30p",
+          "package_name": "shopee_live_sv2",
+          "config": {},
+          "price_per": 130
+        },
+        {
+          "id": 13,
+          "name": "Shopee live 60p",
+          "package_name": "shopee_live_sv3",
+          "config": {},
+          "price_per": 270
+        },
+        {
+          "id": 14,
+          "name": "Shopee live 90p",
+          "package_name": "shopee_live_sv4",
+          "config": {},
+          "price_per": 380
+        },
+        {
+          "id": 15,
+          "name": "Shopee live 120p",
+          "package_name": "shopee_live_sv5",
+          "config": {},
+          "price_per": 380
+        },
+        {
+          "id": 16,
+          "name": "Shopee live 150p",
+          "package_name": "shopee_live_sv6",
+          "config": {},
+          "price_per": 580
+        },
+        {
+          "id": 17,
+          "name": "Shopee live 180p",
+          "package_name": "shopee_live_sv7",
+          "config": {},
+          "price_per": 680
+        }
+      ]
+    },
+    {
+      "name": "Mua bán PAGE",
+      "path": "https://docs.google.com/spreadsheets/d/1GPX_392hwmVEwsRdsN2-C751BkzF6uZ3U3_T9t8-GOg/edit#gid=0",
+      "url_api": "/apihttps://docs.google.com/spreadsheets/d/1GPX_392hwmVEwsRdsN2-C751BkzF6uZ3U3_T9t8-GOg/edit#gid=0/buy",
+      "package": []
+    },
+    {
+      "name": "twitter like",
+      "path": "/twitter-like",
+      "url_api": "/api/twitter-like/buy",
+      "package": [
+        {
+          "id": 327,
+          "name": "Like  Twitter  Việt",
+          "package_name": "twitter_like_sv6",
+          "config": {},
+          "price_per": 46
+        },
+        {
+          "id": 368,
+          "name": "Like nhanh",
+          "package_name": "twitter_like_sv5",
+          "config": {},
+          "price_per": 47
+        },
+        {
+          "id": 369,
+          "name": "like  bảo hành",
+          "package_name": "twitter_like_sv4",
+          "config": {},
+          "price_per": 1000
+        }
+      ]
+    },
+    {
+      "name": "twitter sub",
+      "path": "/twitter-sub",
+      "url_api": "/api/twitter-sub/buy",
+      "package": [
+        {
+          "id": 338,
+          "name": "S3 Follow Twitter",
+          "package_name": "twitter_sub_sv4",
+          "config": {},
+          "price_per": 38
+        },
+        {
+          "id": 340,
+          "name": "S2 Follow Twitter chất lượng cao",
+          "package_name": "twitter_sub_sv3",
+          "config": {},
+          "price_per": 101
+        }
+      ]
+    },
+    {
+      "name": "tiwtter view",
+      "path": "/twitter-view",
+      "url_api": "/api/twitter-view/buy",
+      "package": [
+        {
+          "id": 365,
+          "name": "S1 view tiwtter",
+          "package_name": "tiwtter_view_sv3",
+          "config": {},
+          "price_per": 5.5
+        },
+        {
+          "id": 366,
+          "name": "S2 view Tiwtter",
+          "package_name": "tiwtter_view_sv2",
+          "config": {},
+          "price_per": 0.25
+        },
+        {
+          "id": 367,
+          "name": "S3 view Tiwtter",
+          "package_name": "tiwtter_view_sv1",
+          "config": {},
+          "price_per": 0.3
+        }
+      ]
+    },
+    {
+      "name": "tiwtter comment",
+      "path": "/twitter-comment",
+      "url_api": "/api/twitter-comment/buy",
+      "package": [
+        {
+          "id": 270,
+          "name": "Comment  Tiwtter",
+          "package_name": "twitter_comment_sv1",
+          "config": {},
+          "price_per": 215
+        }
+      ]
+    },
+    {
+      "name": "tiwtter Retweet ",
+      "path": "/twitter-retweet",
+      "url_api": "/api/twitter-retweet/buy",
+      "package": [
+        {
+          "id": 268,
+          "name": "S1 Tiwtter Retweet",
+          "package_name": "twitter_retweet_sv1",
+          "config": {},
+          "price_per": 21
+        }
+      ]
+    },
+    {
+      "name": "Mem group + post view",
+      "path": "/telegram-post-view",
+      "url_api": "/api/telegram-post-view/buy",
+      "package": [
+        {
+          "id": 311,
+          "name": "S1 Mem Telegram",
+          "package_name": "telegram_post_view_sv9",
+          "config": {},
+          "price_per": 31
+        },
+        {
+          "id": 312,
+          "name": "S1 Telegram post view [ 5 bài mới nhất ]",
+          "package_name": "telegram_post_view_sv2",
+          "config": {},
+          "price_per": 6
+        },
+        {
+          "id": 313,
+          "name": "S2 Telegram post view [ 10 bài mới nhất ]",
+          "package_name": "telegram_post_view_sv3",
+          "config": {},
+          "price_per": 11
+        },
+        {
+          "id": 316,
+          "name": "S3 Telegram post view [ 20 bài mới nhất ]",
+          "package_name": "telegram_post_view_sv4",
+          "config": {},
+          "price_per": 21
+        },
+        {
+          "id": 317,
+          "name": "S2 Mem Telegram xịn",
+          "package_name": "telegram_post_view_sv10",
+          "config": {},
+          "price_per": 15.5
+        },
+        {
+          "id": 318,
+          "name": "S3 Mem Telegram xịn",
+          "package_name": "telegram_post_view_sv11",
+          "config": {},
+          "price_per": 51
+        },
+        {
+          "id": 319,
+          "name": "S5 Telegram post view [ 50 bài mới nhất ]",
+          "package_name": "telegram_post_view_sv6",
+          "config": {},
+          "price_per": 54
+        },
+        {
+          "id": 320,
+          "name": "S0 Telegram post view [ 1 bài gần nhất ]",
+          "package_name": "telegram_post_view_sv7",
+          "config": {},
+          "price_per": 3
+        }
+      ]
+    },
+    {
+      "name": "Nạp tiền điện thoại",
+      "path": "/nap-tien-dien-thoai",
+      "url_api": "/api/nap-tien-dien-thoai/buy",
+      "package": []
+    },
+    {
+      "name": "Facebook miễn phí",
+      "path": "/facebook-free",
+      "url_api": "/api/facebook-free/buy",
+      "package": [
+        {
+          "id": 391,
+          "name": "Like clone Việt xịn",
+          "package_name": "facebook_free_like",
+          "config": {},
+          "price_per": 0
+        },
+        {
+          "id": 392,
+          "name": "Follow clone Việt xịn",
+          "package_name": "facebook_free_sub",
+          "config": {},
+          "price_per": 1
+        }
+      ]
+    },
+    {
+      "name": "Instagram miễn phí",
+      "path": "/instagram-free",
+      "url_api": "/api/instagram-free/buy",
+      "package": [
+        {
+          "id": 393,
+          "name": "Like Instagram Việt xịn",
+          "package_name": "instagram_free_like",
+          "config": {},
+          "price_per": 0
+        }
+      ]
+    },
+    {
+      "name": "Tiktok miễn phí",
+      "path": "/tiktok-free",
+      "url_api": "/api/tiktok-free/buy",
+      "package": [
+        {
+          "id": 396,
+          "name": "Mua view Tiktok miễn phí",
+          "package_name": "tiktok_free_view",
+          "config": {},
+          "price_per": 0
+        }
+      ]
+    },
+    {
+      "name": "Review google map",
+      "path": "/review-google-map",
+      "url_api": "/api/review-google-map/buy",
+      "package": [
+        {
+          "id": 253,
+          "name": "review",
+          "package_name": "review_google_map_sv2",
+          "config": {},
+          "price_per": 6610000
+        }
+      ]
+    },
+    {
+      "name": "bigo",
+      "path": "/bigo-live",
+      "url_api": "/api/bigo-live/buy",
+      "package": [
+        {
+          "id": 260,
+          "name": "5",
+          "package_name": "bigo_live_sv4",
+          "config": {},
+          "price_per": 11000
+        },
+        {
+          "id": 332,
+          "name": "8",
+          "package_name": "bigo_live_sv1",
+          "config": {},
+          "price_per": 17
+        }
+      ]
+    },
+    {
+      "name": "Xác minh google maps",
+      "path": "/xac-minh-google-map",
+      "url_api": "/api/xac-minh-google-map/buy",
+      "package": [
+        {
+          "id": 397,
+          "name": "Xác minh map",
+          "package_name": "review_google_map_sv397",
+          "config": {
+            "package": true
+          },
+          "price_per": 1600000
+        }
+      ]
+    }
+  ],
+  "error": [],
+  "success": true,
+  "message": ""
+}
